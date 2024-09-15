@@ -33,7 +33,7 @@ class JwtAuthenticationFilterTest {
 
     @BeforeEach
     void setUp() {
-        jwtSecret = "CKqHITrMPzepvWmczHw+O4QpWgYKlX0b3hqrBxYWu2UWN9Xrr2zKq8ziOqMOfYiLSP5pJYR2FOoJpRGLUrGVeQ==";
+        jwtSecret = "nHsRrBuVxa3p9/8LbZ9M/vtUSO/d2RUDU1g11D53+qwWKwJ3mlICtUrnQo5g3f3GNsQPyUG3kGSpmW4XdMEBKA==";
         filter = new JwtAuthenticationFilter();
         ReflectionTestUtils.setField(filter, "jwtSecret", jwtSecret);
     }
